@@ -74,7 +74,7 @@ public class MainAdminController implements Initializable {
         Scene scene1 = new Scene(mainSceneParent);
         Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
         window.setScene(scene1);
-        window.show(); 
+        window.show();
     }
     
 }
