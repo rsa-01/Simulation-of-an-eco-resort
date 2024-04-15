@@ -41,27 +41,57 @@ public class MainAdminController implements Initializable {
     }
 
     @FXML
-    private void ecoResortFacilitiesOnClick(ActionEvent event) {
+    private void ecoResortFacilitiesOnClick(ActionEvent event) throws IOException {
+        Parent mainSceneParent = FXMLLoader.load(getClass().getResource("viewResortFacilities.fxml"));
+        Scene scene1 = new Scene(mainSceneParent);
+        Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
+        window.setScene(scene1);
+        window.show();
     }
 
     @FXML
-    private void monitorStaffAssignmentsOnClick(ActionEvent event) {
+    private void monitorStaffAssignmentsOnClick(ActionEvent event) throws IOException {
+        Parent mainSceneParent = FXMLLoader.load(getClass().getResource("monitorStaffAssignment.fxml"));
+        Scene scene1 = new Scene(mainSceneParent);
+        Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
+        window.setScene(scene1);
+        window.show();
     }
 
     @FXML
-    private void generateReportOnClick(ActionEvent event) {
+    private void generateReportOnClick(ActionEvent event) throws IOException {
+        Parent mainSceneParent = FXMLLoader.load(getClass().getResource("generateReport.fxml"));
+        Scene scene1 = new Scene(mainSceneParent);
+        Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
+        window.setScene(scene1);
+        window.show();
     }
 
     @FXML
-    private void inventoryOnClick(ActionEvent event) {
+    private void inventoryOnClick(ActionEvent event) throws IOException {
+        Parent mainSceneParent = FXMLLoader.load(getClass().getResource("inventoryManagement.fxml"));
+        Scene scene1 = new Scene(mainSceneParent);
+        Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
+        window.setScene(scene1);
+        window.show();
     }
 
     @FXML
-    private void feedbackonClick(ActionEvent event) {
+    private void feedbackonClick(ActionEvent event) throws IOException {
+        Parent mainSceneParent = FXMLLoader.load(getClass().getResource("viewFeedback.fxml"));
+        Scene scene1 = new Scene(mainSceneParent);
+        Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
+        window.setScene(scene1);
+        window.show();
     }
 
     @FXML
-    private void promotionAndDiscountsOnClick(ActionEvent event) {
+    private void promotionAndDiscountsOnClick(ActionEvent event) throws IOException {
+        Parent mainSceneParent = FXMLLoader.load(getClass().getResource("promotionsAndDiscounts.fxml"));
+        Scene scene1 = new Scene(mainSceneParent);
+        Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
+        window.setScene(scene1);
+        window.show();
     }
 
     @FXML

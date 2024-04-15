@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="Admin_Arpon.GenerateReportController">
+   <children>
+      <Text layoutX="231.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Generate Report">
+         <font>
+            <Font name="System Bold Italic" size="19.0" />
+         </font>
+      </Text>
+      <Button layoutX="60.0" layoutY="151.0" mnemonicParsing="false" onAction="#guestBookingReportOnClick" text="Guest Booking Report" />
+      <Button layoutX="225.0" layoutY="151.0" mnemonicParsing="false" onAction="#revenueReportOnClick" prefHeight="25.0" prefWidth="133.0" text="Revenue Report" />
+      <Button layoutX="396.0" layoutY="151.0" mnemonicParsing="false" onAction="#occupancyRatesReportOnClick" text="Occupancy Rates Report" />
+      <Button layoutX="225.0" layoutY="267.0" mnemonicParsing="false" onAction="#exportReportOnClick" prefHeight="25.0" prefWidth="133.0" text="Export Report" />
+      <Button layoutX="466.0" layoutY="308.0" mnemonicParsing="false" onAction="#backOnClick" prefHeight="18.0" prefWidth="76.0" text="Back" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="Admin_Arpon.SecurityManagementController">
+   <children>
+      <Text layoutX="213.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Security Management">
+         <font>
+            <Font name="System Bold Italic" size="17.0" />
+         </font>
+      </Text>
+      <Button layoutX="57.0" layoutY="150.0" mnemonicParsing="false" onAction="#controlRulesOnClick" prefHeight="25.0" prefWidth="137.0" text="Control rules" />
+      <Button layoutX="231.0" layoutY="150.0" mnemonicParsing="false" onAction="#setupSurveillanceOnClick" prefHeight="25.0" prefWidth="137.0" text="Setup Surveillance" />
+      <Button layoutX="395.0" layoutY="150.0" mnemonicParsing="false" onAction="#emergencyProceduresOnClick" text="Emergency Procedures" />
+      <Button layoutX="230.0" layoutY="215.0" mnemonicParsing="false" onAction="#monitorSecurityStatusOnClick" text="Monitor Security Status" />
+      <Button layoutX="442.0" layoutY="309.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="63.0" text="Back" />
+   </children>
+</AnchorPane>
